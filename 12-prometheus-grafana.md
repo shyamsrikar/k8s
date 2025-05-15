@@ -42,8 +42,9 @@ aws iam attach-role-policy   --role-name <NodeInstanceRoleName>   --policy-arn a
 
 ## Step 3: Create StorageClass for EBS CSI
 
+Create a file with name storageclass.yaml and add below content then apply it with "kubectl apply -f storageclass.yaml"
+
 ```bash
-cat <<EOF | kubectl apply -f -
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
@@ -56,7 +57,6 @@ parameters:
 reclaimPolicy: Delete
 volumeBindingMode: WaitForFirstConsumer
 allowVolumeExpansion: true
-EOF
 ```
 
 ---
