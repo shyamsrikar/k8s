@@ -1,3 +1,7 @@
+# Refer the youtube link Helm
+- ```https://youtu.be/b0GObV7PeWY?feature=shared```
+
+
 ## **What is Helm and Charts in EKS?**  
 **Helm** is a package manager for **Kubernetes**, similar to how **apt** (Ubuntu) or **yum** (Amazon Linux) works for Linux. It simplifies the deployment and management of applications in Kubernetes by using **Helm Charts**—pre-packaged Kubernetes resources with configurable templates.
 
