@@ -1,5 +1,5 @@
 # Refer the youtube link Helm
-- ``` https://youtu.be/b0GObV7PeWY?feature=shared ```
+``` https://youtu.be/b0GObV7PeWY?feature=shared ```
 
 
 ## **What is Helm and Charts in EKS?**  
